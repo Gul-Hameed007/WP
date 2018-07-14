@@ -1,0 +1,45 @@
+[Project ID]
+	Signature=UE Proj: v.1
+[Project Information]
+	Use Relative Directory=1
+	Relative to Project File=1
+	Include Sub Directories=1
+	Project Tagfile=
+	Project Wordfile=
+	Project TpFile=
+	Filter=
+	Create Tagfile=0
+[Files]
+	0=commu.c
+	1=declare.h
+	2=displaydriver.c
+	3=displaydriver.h
+	4=ini.c
+	5=main.c
+	6=newtype.h
+	7=zero.h
+	8=src\beep.c
+	9=src\beep.h
+	10=src\control.c
+	11=src\control.h
+	12=src\eeprom.c
+	13=src\eeprom.h
+	14=src\error.c
+	15=src\factory.c
+	16=src\fan.c
+	17=src\image.c
+	18=src\image.h
+	19=src\key.c
+	20=src\key.h
+	21=src\miwifi.c
+	22=src\miwifi.h
+	23=src\motion.c
+	24=src\program.c
+	25=src\rc.c
+	26=src\run_mode.c
+	27=src\run_mode.h
+	28=src\sensor.c
+	29=src\sensor.h
+	30=src\time.c
+	31=src\time.h
+	32=HC89S105xx.h

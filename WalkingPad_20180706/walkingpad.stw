@@ -1,0 +1,16 @@
+;	STMicroelectronics Workspace file
+
+[Version]
+Keyword=ST7Workspace-V0.7
+
+[Project0]
+Filename=walkingpad.stp
+Dependencies=
+
+[Project1]
+Filename=walkingpad_dev.stp
+Dependencies=
+[Options]
+ActiveProject=walkingpad
+ActiveConfig=Release
+AddSortedElements=0

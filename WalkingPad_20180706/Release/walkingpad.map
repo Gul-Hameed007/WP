@@ -1,0 +1,1900 @@
+
+Map of Release\walkingpad.sm8 from link file Release\walkingpad.lkf - Tue Jul 10 16:54:48 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00009080 end 00009712 length  1682 segment .const
+start 000097c8 end 0000e575 length 19885 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000010 length    16 segment .bsct, initialized
+start 00009724 end 00009734 length    16 segment .bsct, from
+start 00000010 end 0000006d length    93 segment .ubsct
+start 00006d:0 end 000070:4 length    28 segment .bit, initialized
+start 00009734 end 00009738 length     4 segment .bit, from
+start 00000071 end 00000071 length     0 segment .share
+start 00000100 end 0000018f length   143 segment .data, initialized
+start 00009738 end 000097c7 length   143 segment .data, from
+start 0000018f end 000003bb length   556 segment .bss
+start 00000000 end 0006a331 length 434993 segment .debug
+start 00009000 end 00009080 length   128 segment .const
+start 00009712 end 00009724 length    18 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\CXSTM8\Lib\crtsi0.sm8:
+start 000097c8 end 00009813 length    75 section .text
+start 0000018f end 0000018f length     0 section .bss
+start 00000010 end 00000010 length     0 section .ubsct
+
+Release\sensor.o:
+start 00009813 end 00009f04 length  1777 section .text
+start 0000018f end 000001fa length   107 section .bss
+start 00000000 end 00005e41 length 24129 section .debug
+start 00009080 end 000090a8 length    40 section .const
+start 00006d:0 end 00006d:1 length     1 section .bit
+
+Release\run_mode.o:
+start 00009f04 end 0000a263 length   863 section .text
+start 00000100 end 0000012b length    43 section .data
+start 000001fa end 00000203 length     9 section .bss
+start 00000010 end 00000011 length     1 section .ubsct
+start 00005e41 end 0000bd3d length 24316 section .debug
+start 000090a8 end 000090b8 length    16 section .const
+
+Release\time.o:
+start 0000a263 end 0000a2a0 length    61 section .text
+start 00000011 end 0000001a length     9 section .ubsct
+start 0000bd3d end 00011468 length 22315 section .debug
+
+Release\error.o:
+start 0000a2a0 end 0000a4f0 length   592 section .text
+start 00000203 end 00000221 length    30 section .bss
+start 0000001a end 0000001c length     2 section .ubsct
+start 00011468 end 000170f4 length 23692 section .debug
+start 000090b8 end 000090c0 length     8 section .const
+start 00006d:1 end 00006d:2 length     1 section .bit
+
+Release\motion.o:
+start 0000a4f0 end 0000b0b9 length  3017 section .text
+start 00000221 end 0000022b length    10 section .bss
+start 0000001c end 0000001d length     1 section .ubsct
+start 000170f4 end 0001d869 length 26485 section .debug
+start 000090c0 end 000091a4 length   228 section .const
+start 00006d:2 end 00006d:5 length     3 section .bit
+
+Release\program.o:
+start 0000b0b9 end 0000b1f6 length   317 section .text
+start 0001d869 end 00022f2e length 22213 section .debug
+
+Release\control.o:
+start 0000b1f6 end 0000b482 length   652 section .text
+start 0000022b end 00000232 length     7 section .bss
+start 0000001d end 00000027 length    10 section .ubsct
+start 00022f2e end 00029223 length 25333 section .debug
+start 000091a4 end 000091ac length     8 section .const
+start 00006d:5 end 00006d:6 length     1 section .bit
+
+Release\factory.o:
+start 0000b482 end 0000b7e2 length   864 section .text
+start 00000232 end 00000233 length     1 section .bss
+start 00000027 end 00000028 length     1 section .ubsct
+start 00029223 end 0002f3f5 length 25042 section .debug
+start 000091ac end 000091f8 length    76 section .const
+start 00006d:6 end 00006d:7 length     1 section .bit
+
+Release\fan.o:
+start 0000b7e2 end 0000b823 length    65 section .text
+start 0002f3f5 end 00034a2f length 22074 section .debug
+
+Release\key.o:
+start 0000b823 end 0000b8c4 length   161 section .text
+start 00000028 end 00000031 length     9 section .ubsct
+start 00034a2f end 0003a14e length 22303 section .debug
+start 00006d:7 end 00006e:1 length     2 section .bit
+
+Release\rc.o:
+start 0000b8c4 end 0000ba4c length   392 section .text
+start 00000000 end 00000010 length    16 section .bsct
+start 00000031 end 00000035 length     4 section .ubsct
+start 0003a14e end 0003c84a length  9980 section .debug
+start 00006e:1 end 00006e:2 length     1 section .bit
+
+Release\image.o:
+start 0000ba4c end 0000bc41 length   501 section .text
+start 00000233 end 00000263 length    48 section .bss
+start 00000035 end 0000003c length     7 section .ubsct
+start 0003c84a end 00042648 length 24062 section .debug
+start 000091f8 end 000092cb length   211 section .const
+
+Release\miwifi.o:
+start 0000bc41 end 0000cece length  4749 section .text
+start 0000012b end 0000018f length   100 section .data
+start 00000263 end 00000360 length   253 section .bss
+start 0000003c end 00000049 length    13 section .ubsct
+start 00042648 end 00049598 length 28496 section .debug
+start 000092cb end 000096a2 length   983 section .const
+start 00006e:2 end 00006e:4 length     2 section .bit
+
+Release\beep.o:
+start 0000cece end 0000cf25 length    87 section .text
+start 00000049 end 0000004d length     4 section .ubsct
+start 00049598 end 00049e18 length  2176 section .debug
+start 000096a2 end 000096b4 length    18 section .const
+start 00006e:4 end 00006e:6 length     2 section .bit
+
+Release\eeprom.o:
+start 0000cf25 end 0000d071 length   332 section .text
+start 00049e18 end 0004fdaf length 24471 section .debug
+
+Release\commu.o:
+start 0000d071 end 0000d23e length   461 section .text
+start 0000004d end 00000052 length     5 section .ubsct
+start 0004fdaf end 000554b3 length 22276 section .debug
+start 00006e:6 end 00006f:0 length     2 section .bit
+
+Release\displaydriver.o:
+start 0000d23e end 0000d34a length   268 section .text
+start 00000052 end 00000053 length     1 section .ubsct
+start 000554b3 end 0005ad9c length 22761 section .debug
+
+Release\ini.o:
+start 0000d34a end 0000d579 length   559 section .text
+start 0005ad9c end 00060674 length 22744 section .debug
+
+Release\main.o:
+start 0000d579 end 0000d5bd length    68 section .text
+start 00000360 end 000003b2 length    82 section .bss
+start 00000053 end 00000063 length    16 section .ubsct
+start 00060674 end 00064879 length 16901 section .debug
+start 00006f:0 end 000070:0 length     8 section .bit
+
+Release\uart_sim.o:
+start 0000d5bd end 0000d77d length   448 section .text
+start 000003b2 end 000003bb length     9 section .bss
+start 00064879 end 0006a195 length 22812 section .debug
+start 000070:0 end 000070:4 length     4 section .bit
+
+(C:\CXSTM8\Lib\libis0.sm8)atoi.o:
+start 0000d77d end 0000d7db length    94 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)atol.o:
+start 0000d7db end 0000d856 length   123 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)isspac0.o:
+start 0000d856 end 0000d866 length    16 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)memcpy0.o:
+start 0000d866 end 0000d886 length    32 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)sprnt.o:
+start 0000d886 end 0000d89a length    20 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)cprint.o:
+start 0000d89a end 0000ddc7 length  1325 section .text
+start 000096b4 end 000096ed length    57 section .const
+
+(C:\CXSTM8\Lib\libis0.sm8)itob.o:
+start 0000ddc7 end 0000dede length   279 section .text
+start 000096ed end 00009712 length    37 section .const
+
+(C:\CXSTM8\Lib\libis0.sm8)idiv0.o:
+start 0000dede end 0000dee9 length    11 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)ildiv0.o:
+start 0000dee9 end 0000df04 length    27 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)putchr.o:
+start 0000df04 end 0000df0d length     9 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)strchr0.o:
+start 0000df0d end 0000df19 length    12 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)strcpy0.o:
+start 0000df19 end 0000df27 length    14 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)strlen0.o:
+start 0000df27 end 0000df33 length    12 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)strncm.o:
+start 0000df33 end 0000df69 length    54 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)strstr.o:
+start 0000df69 end 0000df9d length    52 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)toup0.o:
+start 0000df9d end 0000dfa8 length    11 section .text
+
+(C:\CXSTM8\Lib\libis0.sm8)vsprnt.o:
+start 0000dfa8 end 0000dfba length    18 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)cmulx.o:
+start 0000dfba end 0000dfce length    20 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 0000dfce end 0000e0b9 length   235 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)fcmp.o:
+start 0000e0b9 end 0000e0ef length    54 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)fadd.o:
+start 0000e0ef end 0000e1cc length   221 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ftol.o:
+start 0000e1cc end 0000e22e length    98 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)idiv.o:
+start 0000e22e end 0000e24c length    30 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)imul.o:
+start 0000e24c end 0000e26d length    33 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)itof.o:
+start 0000e26d end 0000e29b length    46 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)itolx.o:
+start 0000e29b end 0000e2a9 length    14 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ladc.o:
+start 0000e2a9 end 0000e2ba length    17 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ladd.o:
+start 0000e2ba end 0000e2d2 length    24 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lcmp.o:
+start 0000e2d2 end 0000e2f2 length    32 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lsdiv.o:
+start 0000e2f2 end 0000e311 length    31 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lgadc.o:
+start 0000e311 end 0000e321 length    16 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lgadd.o:
+start 0000e321 end 0000e338 length    23 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 0000e338 end 0000e34b length    19 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lgsub.o:
+start 0000e34b end 0000e362 length    23 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lgxor.o:
+start 0000e362 end 0000e379 length    23 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lmul.o:
+start 0000e379 end 0000e404 length   139 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 0000e404 end 0000e419 length    21 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 00000063 end 00000067 length     4 section .ubsct
+
+(C:\CXSTM8\Lib\libm0.sm8)lsub.o:
+start 0000e419 end 0000e431 length    24 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 0000e431 end 0000e443 length    18 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 0000e443 end 0000e457 length    20 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lumod.o:
+start 0000e457 end 0000e471 length    26 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)lzmp.o:
+start 0000e471 end 0000e483 length    18 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 0000e483 end 0000e495 length    18 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)sdivy.o:
+start 0000e495 end 0000e4c7 length    50 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)sdivx.o:
+start 0000e4c7 end 0000e4f2 length    43 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)smul.o:
+start 0000e4f2 end 0000e531 length    63 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)utolx.o:
+start 0000e531 end 0000e538 length     7 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)umul.o:
+start 0000e538 end 0000e574 length    60 section .text
+
+(C:\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000067 end 0000006a length     3 section .ubsct
+
+(C:\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 0000006a end 0000006d length     3 section .ubsct
+
+Release\stm8_interrupt_vector.o:
+start 0000e574 end 0000e575 length     1 section .text
+start 0006a195 end 0006a331 length   412 section .debug
+start 00009000 end 00009080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Release\beep.o:
+_beep                              2   (2)
+_buzzcon                           2   (2)
+
+Release\commu.o:
+_commu                             8   (4)
+
+Release\control.o:
+L1526_dist_calculation            20   (6)
+L1716_time_calculation            12   (2)
+L7126_prepare_statistic_data       7   (4)
+_reset_data                        2   (2)
+_save_total_distance              10   (2)
+_speed_rpm_convert                 7   (4)
+_useroperation                   112   (2)
+
+Release\displaydriver.o:
+_DisplayDriverInitializeLED       10   (2)
+_DisplayDriverProcessLED          15   (10)
+_LED_Send_Command_Bit              5   (5)
+_LED_Send_Data_Bit                 4   (4)
+_LED_Write_Command                 8   (3)
+
+Release\eeprom.o:
+_eeprom_factory                    9   (4)
+_eeprom_read                       2   (2)
+_eeprom_wrchar                     5   (5)
+_eeprom_write_int                  6   (6)
+_eeprom_write_long                 8   (8)
+
+Release\error.o:
+_detect_error                     27   (13)
+
+Release\factory.o:
+L5226_FactoryTestKeys              8   (2)
+_FactoryTestOperation            112   (2)
+_show_net_state                   32   (2)
+
+Release\fan.o:
+_getFanSpeed                       3   (3)
+
+Release\image.o:
+_disp_1f                          94   (5)
+_disp_2f                          94   (5)
+_disp_alternant2_net              30   (16)
+_disp_alternant_net               26   (12)
+_disp_custom                      89   (7)
+_disp_d                           94   (5)
+_disp_ld                          96   (7)
+_disp_matrix                       5   (5)
+_disp_matrix_all                   2   (2)
+_disp_text                        19   (11)
+
+Release\ini.o:
+L3175_portddr_set                  2   (2)
+L3375_ExtiInit                     2   (2)
+L5475_TIM2_Init                    2   (2)
+_feed_wdg                          2   (2)
+_ini                              14   (4)
+_init_params                       4   (2)
+_timer1_ini                        2   (2)
+
+Release\key.o:
+_check_key_id                      6   (2)
+_key_scan                          2   (2)
+
+Release\main.o:
+_main                         >  114   (2)
+
+Release\miwifi.o:
+L1056_append_long                 96   (8)
+L3146_clear_offline_data          10   (2)
+L3546_append_int                  94   (6)
+L5246_append_str                  94   (6)
+L5556_get_store_time              20   (6)
+L7256_append_speed                93   (5)
+L7536_parse_speed                 17   (6)
+L7626_process_net_state           12   (4)
+_commu_wifi                      106   (10)
+f_rxd_isr                     >    5   (5)
+f_txd_isr                     >    5   (5)
+
+Release\motion.o:
+L7026_GOTO_STATE                   2   (2)
+L7526_set_runmode_led              2   (2)
+_UserConsumerDisplay             110   (14)
+_UserConsumerKeys                  8   (2)
+_UserConsumerOperation            39   (12)
+
+Release\program.o:
+_ProgModeKeys                      8   (2)
+
+Release\rc.o:
+_rcCheck                           4   (4)
+f_TIM2_OV_isr                 >    5   (5)
+f_rc_isr                      >    5   (5)
+
+Release\run_mode.o:
+_run                              27   (2)
+_run_auto                         23   (9)
+_run_fixed                        20   (6)
+_run_new                          25   (2)
+_run_stepdown                      2   (2)
+
+Release\sensor.o:
+L1006_adjust_drift                 8   (2)
+L1216_get_median                  33   (31)
+L3006_do_drift                     6   (3)
+L3606_HX711_Read2                  9   (7)
+L5006_Delay__hx711_us              2   (2)
+L5206_HX711_Read1                  9   (7)
+_HX711_Weight                     47   (14)
+_calc_disconnect                   4   (2)
+
+Release\stm8_interrupt_vector.o:
+f_NonHandledInterrupt         >    5   (5)
+
+Release\time.o:
+_clock                             4   (2)
+_timer_proc                        2   (2)
+f_TIM4_isr                    >    7   (5)
+
+Release\uart_sim.o:
+L1006_timer_isr                    7   (4)
+__putchar                          3   (3)
+_init_uart_sim                     4   (2)
+_turn_rx_off                       2   (2)
+_turn_rx_on                        2   (2)
+f_TIM1_OV_isr                 >   18   (11)
+
+C:\CXSTM8\Lib\libis0.sm8:
+_atoi                             11   (8)
+_atol                             15   (9)
+L11__cvtup                         8   (6)
+L31__putbuf                       12   (9)
+L7__gnum                          19   (16)
+__print                           74   (51)
+__udiv                             4   (4)
+__uldiv                            6   (6)
+_isspace                           2   (2)
+__itob                            19   (15)
+__ltob                            23   (17)
+_memcpy                            8   (8)
+_putchar                           3   (3)
+_sprintf                          88   (14)
+_strchr                            3   (3)
+_strcpy                            6   (6)
+_strlen                            2   (2)
+_strncmp                           8   (8)
+_strstr                           10   (10)
+_toupper                           2   (2)
+_vsprintf                         82   (8)
+
+Stack size: 132
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (2)
+   3      + _DisplayDriverProcessLED: (10)
+   4      |    + _LED_Send_Command_Bit: (5)
+   5      |    + _LED_Send_Data_Bit: (4)
+          | 
+   6      + _FactoryTestOperation: (2)
+   7      |    + L5226_FactoryTestKeys: (2)
+   8      |    |    + _beep: (2)
+   9      |    |    + _check_key_id: (2)
+  10      |    |    |    + _rcCheck: (4)
+          |    |    | 
+  11      |    |    + _disp_matrix_all: (2)
+  12      |    |    + _eeprom_wrchar: (5)
+          |    | 
+  13      |    + _ProgModeKeys: (2)
+  14      |    |    + _beep --> 8
+  15      |    |    + _check_key_id --> 9
+  16      |    |    + _eeprom_wrchar --> 12
+          |    | 
+  17      |    + _UserConsumerDisplay: (14)
+  18      |    |    + L7526_set_runmode_led: (2)
+  19      |    |    + _DisplayDriverInitializeLED: (2)
+  20      |    |    |    + _LED_Write_Command: (3)
+  21      |    |    |    |    + _LED_Send_Command_Bit --> 4
+          |    |    |    | 
+          |    |    | 
+  22      |    |    + _beep --> 8
+  23      |    |    + _clock: (2)
+  24      |    |    + _disp_1f: (5)
+  25      |    |    |    + _disp_custom: (7)
+  26      |    |    |    |    + _disp_text: (11)
+  27      |    |    |    |    |    + _memcpy: (8)
+          |    |    |    |    | 
+  28      |    |    |    |    + _vsprintf: (8)
+  29      |    |    |    |    |    + __print: (51)
+  30      |    |    |    |    |    |    + L11__cvtup: (6)
+  31      |    |    |    |    |    |    |    + _toupper: (2)
+          |    |    |    |    |    |    | 
+  32      |    |    |    |    |    |    + L31__putbuf: (9)
+  33      |    |    |    |    |    |    |    + _putchar: (3)
+          |    |    |    |    |    |    | 
+  34      |    |    |    |    |    |    + L7__gnum: (16)
+  35      |    |    |    |    |    |    + __itob: (15)
+  36      |    |    |    |    |    |    |    + __udiv: (4)
+          |    |    |    |    |    |    | 
+  37      |    |    |    |    |    |    + __ltob: (17)
+  38      |    |    |    |    |    |    |    + __uldiv: (6)
+          |    |    |    |    |    |    | 
+  39      |    |    |    |    |    |    + _strlen: (2)
+          |    |    |    |    |    | 
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+  40      |    |    + _disp_2f: (5)
+  41      |    |    |    + _disp_custom --> 25
+          |    |    | 
+  42      |    |    + _disp_alternant2_net: (16)
+  43      |    |    |    + _clock --> 23
+          |    |    | 
+  44      |    |    + _disp_alternant_net: (12)
+  45      |    |    |    + _clock --> 23
+          |    |    | 
+  46      |    |    + _disp_custom --> 25
+  47      |    |    + _disp_d: (5)
+  48      |    |    |    + _disp_custom --> 25
+          |    |    | 
+  49      |    |    + _disp_ld: (7)
+  50      |    |    |    + _disp_custom --> 25
+          |    |    | 
+  51      |    |    + _disp_matrix: (5)
+  52      |    |    + _disp_matrix_all --> 11
+  53      |    |    + _disp_text --> 26
+          |    | 
+  54      |    + _UserConsumerKeys: (2)
+  55      |    |    + L7026_GOTO_STATE: (2)
+  56      |    |    + _beep --> 8
+  57      |    |    + _check_key_id --> 9
+          |    | 
+  58      |    + _UserConsumerOperation: (12)
+  59      |    |    + L7026_GOTO_STATE --> 55
+  60      |    |    + _beep --> 8
+  61      |    |    + _eeprom_wrchar --> 12
+  62      |    |    + _eeprom_write_int: (6)
+  63      |    |    + _eeprom_write_long: (8)
+  64      |    |    + _reset_data: (2)
+  65      |    |    + _run: (2)
+  66      |    |    |    + _beep --> 8
+  67      |    |    |    + _run_auto: (9)
+  68      |    |    |    |    + _beep --> 8
+          |    |    |    | 
+  69      |    |    |    + _run_fixed: (6)
+  70      |    |    |    |    + _beep --> 8
+          |    |    |    | 
+  71      |    |    |    + _run_new: (2)
+  72      |    |    |    |    + _eeprom_wrchar --> 12
+  73      |    |    |    |    + _run_auto --> 67
+  74      |    |    |    |    + _run_fixed --> 69
+          |    |    |    | 
+  75      |    |    |    + _run_stepdown: (2)
+          |    |    | 
+  76      |    |    + _run_new --> 71
+  77      |    |    + _save_total_distance: (2)
+  78      |    |    |    + _eeprom_write_long --> 63
+          |    |    | 
+          |    | 
+  79      |    + _disp_1f --> 24
+  80      |    + _disp_custom --> 25
+  81      |    + _disp_d --> 47
+  82      |    + _disp_ld --> 49
+  83      |    + _disp_matrix_all --> 11
+  84      |    + _disp_text --> 26
+  85      |    + _eeprom_factory: (4)
+  86      |    |    + _eeprom_wrchar --> 12
+          |    | 
+  87      |    + _eeprom_wrchar --> 12
+  88      |    + _init_params: (2)
+  89      |    |    + _eeprom_read: (2)
+          |    | 
+  90      |    + _run --> 65
+  91      |    + _show_net_state: (2)
+  92      |    |    + _disp_alternant2_net --> 42
+  93      |    |    + _disp_alternant_net --> 44
+  94      |    |    + _eeprom_wrchar --> 12
+          |    | 
+  95      |    + _speed_rpm_convert: (4)
+          | 
+  96      + _HX711_Weight: (14)
+  97      |    + L1006_adjust_drift: (2)
+  98      |    |    + L3006_do_drift: (3)
+          |    | 
+  99      |    + L1216_get_median: (31)
+ 100      |    + L3606_HX711_Read2: (7)
+ 101      |    |    + L5006_Delay__hx711_us: (2)
+          |    | 
+ 102      |    + L5206_HX711_Read1: (7)
+ 103      |    |    + L5006_Delay__hx711_us --> 101
+          |    | 
+ 104      |    + _calc_disconnect: (2)
+          | 
+ 105      + _buzzcon: (2)
+ 106      + _commu: (4)
+ 107      |    + __putchar: (3)
+ 108      |    + _getFanSpeed: (3)
+ 109      |    + _init_uart_sim: (2)
+ 110      |    |    + _timer1_ini: (2)
+          |    | 
+ 111      |    + _turn_rx_off: (2)
+          | 
+ 112      + _commu_wifi: (10)
+ 113      |    + L1056_append_long: (8)
+ 114      |    |    + _sprintf: (14)
+ 115      |    |    |    + __print --> 29
+          |    |    | 
+          |    | 
+ 116      |    + L3146_clear_offline_data: (2)
+ 117      |    |    + _eeprom_write_int --> 62
+ 118      |    |    + _eeprom_write_long --> 63
+          |    | 
+ 119      |    + L3546_append_int: (6)
+ 120      |    |    + _sprintf --> 114
+          |    | 
+ 121      |    + L5246_append_str: (6)
+ 122      |    |    + _sprintf --> 114
+          |    | 
+ 123      |    + L5556_get_store_time: (6)
+ 124      |    |    + _clock --> 23
+          |    | 
+ 125      |    + L7256_append_speed: (5)
+ 126      |    |    + _sprintf --> 114
+          |    | 
+ 127      |    + L7536_parse_speed: (6)
+ 128      |    |    + _atoi: (8)
+ 129      |    |    |    + _isspace: (2)
+          |    |    | 
+ 130      |    |    + _strchr: (3)
+          |    | 
+ 131      |    + L7626_process_net_state: (4)
+ 132      |    |    + _strncmp: (8)
+          |    | 
+ 133      |    + _DisplayDriverProcessLED --> 3
+ 134      |    + _atoi --> 128
+ 135      |    + _atol: (9)
+ 136      |    |    + _isspace --> 129
+          |    | 
+ 137      |    + _beep --> 8
+ 138      |    + _clock --> 23
+ 139      |    + _disp_matrix_all --> 11
+ 140      |    + _disp_text --> 26
+ 141      |    + _eeprom_wrchar --> 12
+ 142      |    + _eeprom_write_int --> 62
+ 143      |    + _sprintf --> 114
+ 144      |    + _strcpy: (6)
+ 145      |    + _strlen --> 39
+ 146      |    + _strncmp --> 132
+ 147      |    + _strstr: (10)
+          | 
+ 148      + _detect_error: (13)
+ 149      |    + _beep --> 8
+ 150      |    + _clock --> 23
+ 151      |    + _eeprom_wrchar --> 12
+ 152      |    + _eeprom_write_long --> 63
+          | 
+ 153      + _feed_wdg: (2)
+ 154      + _ini: (4)
+ 155      |    + L3175_portddr_set: (2)
+ 156      |    + L3375_ExtiInit: (2)
+ 157      |    + L5475_TIM2_Init: (2)
+ 158      |    + _DisplayDriverInitializeLED --> 19
+ 159      |    + _eeprom_wrchar --> 12
+ 160      |    + _init_params --> 88
+ 161      |    + _init_uart_sim --> 109
+          | 
+ 162      + _key_scan: (2)
+ 163      + _timer_proc: (2)
+ 164      + _useroperation: (2)
+ 165      |    + L1526_dist_calculation: (6)
+ 166      |    |    + L7126_prepare_statistic_data: (4)
+ 167      |    |    + _beep --> 8
+ 168      |    |    + _reset_data --> 64
+ 169      |    |    + _save_total_distance --> 77
+          |    | 
+ 170      |    + L1716_time_calculation: (2)
+ 171      |    |    + _beep --> 8
+ 172      |    |    + _reset_data --> 64
+ 173      |    |    + _save_total_distance --> 77
+          |    | 
+ 174      |    + _ProgModeKeys --> 13
+ 175      |    + _UserConsumerDisplay --> 17
+ 176      |    + _UserConsumerKeys --> 54
+ 177      |    + _UserConsumerOperation --> 58
+ 178      |    + _speed_rpm_convert --> 95
+          | 
+       
+ 179 > f_NonHandledInterrupt: (5)
+
+ 180 > f_TIM1_OV_isr: (11)
+ 181      + L1006_timer_isr: (4)
+ 182      |    + __putchar --> 107
+ 183      |    + _turn_rx_off --> 111
+ 184      |    + _turn_rx_on: (2)
+          | 
+       
+ 185 > f_TIM2_OV_isr: (5)
+
+ 186 > f_TIM4_isr: (5)
+
+ 187 > f_rc_isr: (5)
+
+ 188 > f_rxd_isr: (5)
+
+ 189 > f_txd_isr: (5)
+
+ 190   L1006_adjust_drift --> 97
+
+ 191   L1006_timer_isr --> 181
+
+ 192   L1056_append_long --> 113
+
+ 193   L11__cvtup --> 30
+
+ 194   L1216_get_median --> 99
+
+ 195   L1526_dist_calculation --> 165
+
+ 196   L1716_time_calculation --> 170
+
+ 197   L3006_do_drift --> 98
+
+ 198   L3146_clear_offline_data --> 116
+
+ 199   L3175_portddr_set --> 155
+
+ 200   L31__putbuf --> 32
+
+ 201   L3375_ExtiInit --> 156
+
+ 202   L3546_append_int --> 119
+
+ 203   L3606_HX711_Read2 --> 100
+
+ 204   L5006_Delay__hx711_us --> 101
+
+ 205   L5206_HX711_Read1 --> 102
+
+ 206   L5226_FactoryTestKeys --> 7
+
+ 207   L5246_append_str --> 121
+
+ 208   L5475_TIM2_Init --> 157
+
+ 209   L5556_get_store_time --> 123
+
+ 210   L7026_GOTO_STATE --> 55
+
+ 211   L7126_prepare_statistic_data --> 166
+
+ 212   L7256_append_speed --> 125
+
+ 213   L7526_set_runmode_led --> 18
+
+ 214   L7536_parse_speed --> 127
+
+ 215   L7626_process_net_state --> 131
+
+ 216   L7__gnum --> 34
+
+ 217   _DisplayDriverInitializeLED --> 19
+
+ 218   _DisplayDriverProcessLED --> 3
+
+ 219   _FactoryTestOperation --> 6
+
+ 220   _HX711_Weight --> 96
+
+ 221   _LED_Send_Command_Bit --> 4
+
+ 222   _LED_Send_Data_Bit --> 5
+
+ 223   _LED_Write_Command --> 20
+
+ 224   _ProgModeKeys --> 13
+
+ 225   _UserConsumerDisplay --> 17
+
+ 226   _UserConsumerKeys --> 54
+
+ 227   _UserConsumerOperation --> 58
+
+ 228   __itob --> 35
+
+ 229   __ltob --> 37
+
+ 230   __print --> 29
+
+ 231   __putchar --> 107
+
+ 232   __udiv --> 36
+
+ 233   __uldiv --> 38
+
+ 234   _atoi --> 128
+
+ 235   _atol --> 135
+
+ 236   _beep --> 8
+
+ 237   _buzzcon --> 105
+
+ 238   _calc_disconnect --> 104
+
+ 239   _check_key_id --> 9
+
+ 240   _clock --> 23
+
+ 241   _commu --> 106
+
+ 242   _commu_wifi --> 112
+
+ 243   _detect_error --> 148
+
+ 244   _disp_1f --> 24
+
+ 245   _disp_2f --> 40
+
+ 246   _disp_alternant2_net --> 42
+
+ 247   _disp_alternant_net --> 44
+
+ 248   _disp_custom --> 25
+
+ 249   _disp_d --> 47
+
+ 250   _disp_ld --> 49
+
+ 251   _disp_matrix --> 51
+
+ 252   _disp_matrix_all --> 11
+
+ 253   _disp_text --> 26
+
+ 254   _eeprom_factory --> 85
+
+ 255   _eeprom_read --> 89
+
+ 256   _eeprom_wrchar --> 12
+
+ 257   _eeprom_write_int --> 62
+
+ 258   _eeprom_write_long --> 63
+
+ 259   _feed_wdg --> 153
+
+ 260   _getFanSpeed --> 108
+
+ 261   _ini --> 154
+
+ 262   _init_params --> 88
+
+ 263   _init_uart_sim --> 109
+
+ 264   _isspace --> 129
+
+ 265   _key_scan --> 162
+
+ 266   _memcpy --> 27
+
+ 267   _putchar --> 33
+
+ 268   _rcCheck --> 10
+
+ 269   _reset_data --> 64
+
+ 270   _run --> 65
+
+ 271   _run_auto --> 67
+
+ 272   _run_fixed --> 69
+
+ 273   _run_new --> 71
+
+ 274   _run_stepdown --> 75
+
+ 275   _save_total_distance --> 77
+
+ 276   _show_net_state --> 91
+
+ 277   _speed_rpm_convert --> 95
+
+ 278   _sprintf --> 114
+
+ 279   _strchr --> 130
+
+ 280   _strcpy --> 144
+
+ 281   _strlen --> 39
+
+ 282   _strncmp --> 132
+
+ 283   _strstr --> 147
+
+ 284   _timer1_ini --> 110
+
+ 285   _timer_proc --> 163
+
+ 286   _toupper --> 31
+
+ 287   _turn_rx_off --> 111
+
+ 288   _turn_rx_on --> 184
+
+ 289   _useroperation --> 164
+
+ 290   _vsprintf --> 28
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AWCR                     0000540e   defined in Release\sensor.o
+_ADC_AWCRH                    0000540e   defined in Release\sensor.o
+_ADC_AWCRL                    0000540f   defined in Release\sensor.o
+_ADC_AWSR                     0000540c   defined in Release\sensor.o
+_ADC_AWSRH                    0000540c   defined in Release\sensor.o
+_ADC_AWSRL                    0000540d   defined in Release\sensor.o
+_ADC_CR1                      00005401   defined in Release\sensor.o
+_ADC_CR2                      00005402   defined in Release\sensor.o
+_ADC_CR3                      00005403   defined in Release\sensor.o
+_ADC_CSR                      00005400   defined in Release\sensor.o
+_ADC_DB0R                     000053e0   defined in Release\sensor.o
+_ADC_DB0RH                    000053e0   defined in Release\sensor.o
+_ADC_DB0RL                    000053e1   defined in Release\sensor.o
+_ADC_DB1R                     000053e2   defined in Release\sensor.o
+_ADC_DB1RH                    000053e2   defined in Release\sensor.o
+_ADC_DB1RL                    000053e3   defined in Release\sensor.o
+_ADC_DB2R                     000053e4   defined in Release\sensor.o
+_ADC_DB2RH                    000053e4   defined in Release\sensor.o
+_ADC_DB2RL                    000053e5   defined in Release\sensor.o
+_ADC_DB3R                     000053e6   defined in Release\sensor.o
+_ADC_DB3RH                    000053e6   defined in Release\sensor.o
+_ADC_DB3RL                    000053e7   defined in Release\sensor.o
+_ADC_DB4R                     000053e8   defined in Release\sensor.o
+_ADC_DB4RH                    000053e8   defined in Release\sensor.o
+_ADC_DB4RL                    000053e9   defined in Release\sensor.o
+_ADC_DB5R                     000053ea   defined in Release\sensor.o
+_ADC_DB5RH                    000053ea   defined in Release\sensor.o
+_ADC_DB5RL                    000053eb   defined in Release\sensor.o
+_ADC_DB6R                     000053ec   defined in Release\sensor.o
+_ADC_DB6RH                    000053ec   defined in Release\sensor.o
+_ADC_DB6RL                    000053ed   defined in Release\sensor.o
+_ADC_DB7R                     000053ee   defined in Release\sensor.o
+_ADC_DB7RH                    000053ee   defined in Release\sensor.o
+_ADC_DB7RL                    000053ef   defined in Release\sensor.o
+_ADC_DB8R                     000053f0   defined in Release\sensor.o
+_ADC_DB8RH                    000053f0   defined in Release\sensor.o
+_ADC_DB8RL                    000053f1   defined in Release\sensor.o
+_ADC_DB9R                     000053f2   defined in Release\sensor.o
+_ADC_DB9RH                    000053f2   defined in Release\sensor.o
+_ADC_DB9RL                    000053f3   defined in Release\sensor.o
+_ADC_DR                       00005404   defined in Release\sensor.o
+_ADC_DRH                      00005404   defined in Release\sensor.o
+_ADC_DRL                      00005405   defined in Release\sensor.o
+_ADC_HTR                      00005408   defined in Release\sensor.o
+_ADC_HTRH                     00005408   defined in Release\sensor.o
+_ADC_HTRL                     00005409   defined in Release\sensor.o
+_ADC_LTR                      0000540a   defined in Release\sensor.o
+_ADC_LTRH                     0000540a   defined in Release\sensor.o
+_ADC_LTRL                     0000540b   defined in Release\sensor.o
+_ADC_TDR                      00005406   defined in Release\sensor.o
+_ADC_TDRH                     00005406   defined in Release\sensor.o
+_ADC_TDRL                     00005407   defined in Release\sensor.o
+_AWU_APR                      000050f1   defined in Release\sensor.o
+_AWU_CSR                      000050f0   defined in Release\sensor.o
+_AWU_TBR                      000050f2   defined in Release\sensor.o
+_BEEP_CSR                     000050f3   defined in Release\sensor.o
+_CFG_GCR                      00007f60   defined in Release\sensor.o
+_CLK_CANCCR                   000050cb   defined in Release\sensor.o
+_CLK_CCOR                     000050c9   defined in Release\sensor.o
+_CLK_CKDIVR                   000050c6   defined in Release\sensor.o
+_CLK_CMSR                     000050c3   defined in Release\sensor.o
+_CLK_CSSR                     000050c8   defined in Release\sensor.o
+_CLK_ECKR                     000050c1   defined in Release\sensor.o
+_CLK_HSITRIMR                 000050cc   defined in Release\sensor.o
+_CLK_ICKR                     000050c0   defined in Release\sensor.o
+_CLK_PCKENR1                  000050c7   defined in Release\sensor.o
+_CLK_PCKENR2                  000050ca   defined in Release\sensor.o
+_CLK_SWCR                     000050c5   defined in Release\sensor.o
+_CLK_SWIMCCR                  000050cd   defined in Release\sensor.o
+_CLK_SWR                      000050c4   defined in Release\sensor.o
+_DisplayDriverInitializeLED   0000d324   defined in Release\displaydriver.o section .text
+                                         used in Release\motion.o Release\ini.o
+_DisplayDriverProcessLED      0000d29e   defined in Release\displaydriver.o section .text
+                                         used in Release\miwifi.o Release\main.o
+_EXTI_CR1                     000050a0   defined in Release\sensor.o
+_EXTI_CR2                     000050a1   defined in Release\sensor.o
+_FLASH_CR1                    0000505a   defined in Release\sensor.o
+_FLASH_CR2                    0000505b   defined in Release\sensor.o
+_FLASH_DUKR                   00005064   defined in Release\sensor.o
+_FLASH_FPR                    0000505d   defined in Release\sensor.o
+_FLASH_IAPSR                  0000505f   defined in Release\sensor.o
+_FLASH_NCR2                   0000505c   defined in Release\sensor.o
+_FLASH_NFPR                   0000505e   defined in Release\sensor.o
+_FLASH_PUKR                   00005062   defined in Release\sensor.o
+_FW_VERSION                   000092e4   defined in Release\miwifi.o section .const
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_FactoryTestOperation         0000b5c3   defined in Release\factory.o section .text
+                                         used in Release\main.o
+_HX711_Weight                 00009a01   defined in Release\sensor.o section .text
+                                         used in Release\main.o
+_I2C_CCRH                     0000521c   defined in Release\sensor.o
+_I2C_CCRL                     0000521b   defined in Release\sensor.o
+_I2C_CR1                      00005210   defined in Release\sensor.o
+_I2C_CR2                      00005211   defined in Release\sensor.o
+_I2C_DR                       00005216   defined in Release\sensor.o
+_I2C_FREQR                    00005212   defined in Release\sensor.o
+_I2C_ITR                      0000521a   defined in Release\sensor.o
+_I2C_OARH                     00005214   defined in Release\sensor.o
+_I2C_OARL                     00005213   defined in Release\sensor.o
+_I2C_PECR                     0000521e   defined in Release\sensor.o
+_I2C_SR1                      00005217   defined in Release\sensor.o
+_I2C_SR2                      00005218   defined in Release\sensor.o
+_I2C_SR3                      00005219   defined in Release\sensor.o
+_I2C_TRISER                   0000521d   defined in Release\sensor.o
+_ITC_SPR1                     00007f70   defined in Release\sensor.o
+_ITC_SPR2                     00007f71   defined in Release\sensor.o
+_ITC_SPR3                     00007f72   defined in Release\sensor.o
+_ITC_SPR4                     00007f73   defined in Release\sensor.o
+_ITC_SPR5                     00007f74   defined in Release\sensor.o
+_ITC_SPR6                     00007f75   defined in Release\sensor.o
+_ITC_SPR7                     00007f76   defined in Release\sensor.o
+_IWDG_KR                      000050e0   defined in Release\sensor.o
+_IWDG_PR                      000050e1   defined in Release\sensor.o
+_IWDG_RLR                     000050e2   defined in Release\sensor.o
+_LED_Send_Command_Bit         0000d23e   defined in Release\displaydriver.o section .text
+_LED_Send_Data_Bit            0000d260   defined in Release\displaydriver.o section .text
+_LED_Write_Command            0000d27f   defined in Release\displaydriver.o section .text
+_PA_CR1                       00005003   defined in Release\sensor.o
+_PA_CR2                       00005004   defined in Release\sensor.o
+_PA_DDR                       00005002   defined in Release\sensor.o
+_PA_IDR                       00005001   defined in Release\sensor.o
+_PA_ODR                       00005000   defined in Release\sensor.o
+_PB_CR1                       00005008   defined in Release\sensor.o
+_PB_CR2                       00005009   defined in Release\sensor.o
+_PB_DDR                       00005007   defined in Release\sensor.o
+_PB_IDR                       00005006   defined in Release\sensor.o
+_PB_ODR                       00005005   defined in Release\sensor.o
+_PC_CR1                       0000500d   defined in Release\sensor.o
+_PC_CR2                       0000500e   defined in Release\sensor.o
+_PC_DDR                       0000500c   defined in Release\sensor.o
+_PC_IDR                       0000500b   defined in Release\sensor.o
+_PC_ODR                       0000500a   defined in Release\sensor.o
+_PD_CR1                       00005012   defined in Release\sensor.o
+_PD_CR2                       00005013   defined in Release\sensor.o
+_PD_DDR                       00005011   defined in Release\sensor.o
+_PD_IDR                       00005010   defined in Release\sensor.o
+_PD_ODR                       0000500f   defined in Release\sensor.o
+_PE_CR1                       00005017   defined in Release\sensor.o
+_PE_CR2                       00005018   defined in Release\sensor.o
+_PE_DDR                       00005016   defined in Release\sensor.o
+_PE_IDR                       00005015   defined in Release\sensor.o
+_PE_ODR                       00005014   defined in Release\sensor.o
+_PF_CR1                       0000501c   defined in Release\sensor.o
+_PF_CR2                       0000501d   defined in Release\sensor.o
+_PF_DDR                       0000501b   defined in Release\sensor.o
+_PF_IDR                       0000501a   defined in Release\sensor.o
+_PF_ODR                       00005019   defined in Release\sensor.o
+_ProgModeKeys                 0000b0b9   defined in Release\program.o section .text
+                                         used in Release\control.o
+                                                 Release\factory.o
+_RST_SR                       000050b3   defined in Release\sensor.o
+_SPI_CR1                      00005200   defined in Release\sensor.o
+_SPI_CR2                      00005201   defined in Release\sensor.o
+_SPI_CRCPR                    00005205   defined in Release\sensor.o
+_SPI_DR                       00005204   defined in Release\sensor.o
+_SPI_ICR                      00005202   defined in Release\sensor.o
+_SPI_RXCRCR                   00005206   defined in Release\sensor.o
+_SPI_SR                       00005203   defined in Release\sensor.o
+_SPI_TXCRCR                   00005207   defined in Release\sensor.o
+_TIM1_ARR                     00005262   defined in Release\sensor.o
+_TIM1_ARRH                    00005262   defined in Release\sensor.o
+_TIM1_ARRL                    00005263   defined in Release\sensor.o
+_TIM1_BKR                     0000526d   defined in Release\sensor.o
+_TIM1_CCER1                   0000525c   defined in Release\sensor.o
+_TIM1_CCER2                   0000525d   defined in Release\sensor.o
+_TIM1_CCMR1                   00005258   defined in Release\sensor.o
+_TIM1_CCMR2                   00005259   defined in Release\sensor.o
+_TIM1_CCMR3                   0000525a   defined in Release\sensor.o
+_TIM1_CCMR4                   0000525b   defined in Release\sensor.o
+_TIM1_CCR1                    00005265   defined in Release\sensor.o
+_TIM1_CCR1H                   00005265   defined in Release\sensor.o
+_TIM1_CCR1L                   00005266   defined in Release\sensor.o
+_TIM1_CCR2                    00005267   defined in Release\sensor.o
+_TIM1_CCR2H                   00005267   defined in Release\sensor.o
+_TIM1_CCR2L                   00005268   defined in Release\sensor.o
+_TIM1_CCR3                    00005269   defined in Release\sensor.o
+_TIM1_CCR3H                   00005269   defined in Release\sensor.o
+_TIM1_CCR3L                   0000526a   defined in Release\sensor.o
+_TIM1_CCR4                    0000526b   defined in Release\sensor.o
+_TIM1_CCR4H                   0000526b   defined in Release\sensor.o
+_TIM1_CCR4L                   0000526c   defined in Release\sensor.o
+_TIM1_CNTR                    0000525e   defined in Release\sensor.o
+_TIM1_CNTRH                   0000525e   defined in Release\sensor.o
+_TIM1_CNTRL                   0000525f   defined in Release\sensor.o
+_TIM1_CR1                     00005250   defined in Release\sensor.o
+_TIM1_CR2                     00005251   defined in Release\sensor.o
+_TIM1_DTR                     0000526e   defined in Release\sensor.o
+_TIM1_EGR                     00005257   defined in Release\sensor.o
+_TIM1_ETR                     00005253   defined in Release\sensor.o
+_TIM1_IER                     00005254   defined in Release\sensor.o
+_TIM1_OISR                    0000526f   defined in Release\sensor.o
+_TIM1_PSCR                    00005260   defined in Release\sensor.o
+_TIM1_PSCRH                   00005260   defined in Release\sensor.o
+_TIM1_PSCRL                   00005261   defined in Release\sensor.o
+_TIM1_RCR                     00005264   defined in Release\sensor.o
+_TIM1_SMCR                    00005252   defined in Release\sensor.o
+_TIM1_SR1                     00005255   defined in Release\sensor.o
+_TIM1_SR2                     00005256   defined in Release\sensor.o
+_TIM2_ARR                     0000530d   defined in Release\sensor.o
+_TIM2_ARRH                    0000530d   defined in Release\sensor.o
+_TIM2_ARRL                    0000530e   defined in Release\sensor.o
+_TIM2_CCER1                   00005308   defined in Release\sensor.o
+_TIM2_CCER2                   00005309   defined in Release\sensor.o
+_TIM2_CCMR1                   00005305   defined in Release\sensor.o
+_TIM2_CCMR2                   00005306   defined in Release\sensor.o
+_TIM2_CCMR3                   00005307   defined in Release\sensor.o
+_TIM2_CCR1                    0000530f   defined in Release\sensor.o
+_TIM2_CCR1H                   0000530f   defined in Release\sensor.o
+_TIM2_CCR1L                   00005310   defined in Release\sensor.o
+_TIM2_CCR2                    00005311   defined in Release\sensor.o
+_TIM2_CCR2H                   00005311   defined in Release\sensor.o
+_TIM2_CCR2L                   00005312   defined in Release\sensor.o
+_TIM2_CCR3                    00005313   defined in Release\sensor.o
+_TIM2_CCR3H                   00005313   defined in Release\sensor.o
+_TIM2_CCR3L                   00005314   defined in Release\sensor.o
+_TIM2_CNTR                    0000530a   defined in Release\sensor.o
+_TIM2_CNTRH                   0000530a   defined in Release\sensor.o
+_TIM2_CNTRL                   0000530b   defined in Release\sensor.o
+_TIM2_CR1                     00005300   defined in Release\sensor.o
+_TIM2_EGR                     00005304   defined in Release\sensor.o
+_TIM2_IER                     00005301   defined in Release\sensor.o
+_TIM2_PSCR                    0000530c   defined in Release\sensor.o
+_TIM2_SR1                     00005302   defined in Release\sensor.o
+_TIM2_SR2                     00005303   defined in Release\sensor.o
+_TIM3_ARR                     0000532b   defined in Release\sensor.o
+_TIM3_ARRH                    0000532b   defined in Release\sensor.o
+_TIM3_ARRL                    0000532c   defined in Release\sensor.o
+_TIM3_CCER1                   00005327   defined in Release\sensor.o
+_TIM3_CCMR1                   00005325   defined in Release\sensor.o
+_TIM3_CCMR2                   00005326   defined in Release\sensor.o
+_TIM3_CCR1                    0000532d   defined in Release\sensor.o
+_TIM3_CCR1H                   0000532d   defined in Release\sensor.o
+_TIM3_CCR1L                   0000532e   defined in Release\sensor.o
+_TIM3_CCR2                    0000532f   defined in Release\sensor.o
+_TIM3_CCR2H                   0000532f   defined in Release\sensor.o
+_TIM3_CCR2L                   00005330   defined in Release\sensor.o
+_TIM3_CNTR                    00005328   defined in Release\sensor.o
+_TIM3_CNTRH                   00005328   defined in Release\sensor.o
+_TIM3_CNTRL                   00005329   defined in Release\sensor.o
+_TIM3_CR1                     00005320   defined in Release\sensor.o
+_TIM3_EGR                     00005324   defined in Release\sensor.o
+_TIM3_IER                     00005321   defined in Release\sensor.o
+_TIM3_PSCR                    0000532a   defined in Release\sensor.o
+_TIM3_SR1                     00005322   defined in Release\sensor.o
+_TIM3_SR2                     00005323   defined in Release\sensor.o
+_TIM4_ARR                     00005346   defined in Release\sensor.o
+_TIM4_CNTR                    00005344   defined in Release\sensor.o
+_TIM4_CR1                     00005340   defined in Release\sensor.o
+_TIM4_EGR                     00005343   defined in Release\sensor.o
+_TIM4_IER                     00005341   defined in Release\sensor.o
+_TIM4_PSCR                    00005345   defined in Release\sensor.o
+_TIM4_SR                      00005342   defined in Release\sensor.o
+_UART2_BRR1                   00005242   defined in Release\sensor.o
+_UART2_BRR2                   00005243   defined in Release\sensor.o
+_UART2_CR1                    00005244   defined in Release\sensor.o
+_UART2_CR2                    00005245   defined in Release\sensor.o
+_UART2_CR3                    00005246   defined in Release\sensor.o
+_UART2_CR4                    00005247   defined in Release\sensor.o
+_UART2_CR6                    00005249   defined in Release\sensor.o
+_UART2_DR                     00005241   defined in Release\sensor.o
+_UART2_GTR                    0000524a   defined in Release\sensor.o
+_UART2_PSCR                   0000524b   defined in Release\sensor.o
+_UART2_SR                     00005240   defined in Release\sensor.o
+_UserConsumerDisplay          0000a55e   defined in Release\motion.o section .text
+                                         used in Release\control.o
+                                                 Release\factory.o
+_UserConsumerKeys             0000aa51   defined in Release\motion.o section .text
+                                         used in Release\control.o
+                                                 Release\factory.o
+_UserConsumerOperation        0000ac42   defined in Release\motion.o section .text
+                                         used in Release\control.o
+                                                 Release\factory.o
+_WWDG_CR                      000050d1   defined in Release\sensor.o
+_WWDG_WR                      000050d2   defined in Release\sensor.o
+___clocks                     00000011   defined in Release\time.o section .ubsct
+__endmem                      000005ff   defined in command file
+                                         *** not used ***
+__endzp                       0000006d   defined in command file section .ubsct
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+__idesc__                     00009712   defined in linker section .init
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+__itob                        0000ddc7   defined in (C:\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+__ltob                        0000de42   defined in (C:\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+__memory                      000003bb   defined in command file section .bss
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+__print                       0000d994   defined in (C:\CXSTM8\Lib\libis0.sm8)cprint.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)sprnt.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)vsprnt.o
+__putchar                     0000d5d4   defined in Release\uart_sim.o section .text
+                                         used in Release\commu.o
+__stack                       000007ff   defined in command file
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+__startmem                    000003bb   defined in command file section .bss
+                                         *** not used ***
+__stext                       000097c8   defined in C:\CXSTM8\Lib\crtsi0.sm8 section .text
+                                         used in Release\stm8_interrupt_vector.o
+__udiv                        0000dede   defined in (C:\CXSTM8\Lib\libis0.sm8)idiv0.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)itob.o
+__uldiv                       0000dee9   defined in (C:\CXSTM8\Lib\libis0.sm8)ildiv0.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)itob.o
+__vectab                      00009000   defined in Release\stm8_interrupt_vector.o section .const
+_acceleration_param           00000366   defined in Release\main.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o Release\ini.o
+_ascii_2                      000091fe   defined in Release\image.o section .const
+_atoi                         0000d77d   defined in (C:\CXSTM8\Lib\libis0.sm8)atoi.o section .text
+                                         used in Release\miwifi.o
+_atol                         0000d7db   defined in (C:\CXSTM8\Lib\libis0.sm8)atol.o section .text
+                                         used in Release\miwifi.o
+_autorun_delay_sec            000001fe   defined in Release\run_mode.o section .bss
+_beep                         0000cece   defined in Release\beep.o section .text
+                                         used in Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\program.o
+                                                 Release\control.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_bias                         000001fa   defined in Release\run_mode.o section .bss
+_bias_arr                     00000100   defined in Release\run_mode.o section .data, initialized
+_bias_arr_is_full             00000129   defined in Release\run_mode.o section .data, initialized
+_bias_idx                     00000128   defined in Release\run_mode.o section .data, initialized
+_button_id                    00000337   defined in Release\miwifi.o section .bss
+                                         used in Release\motion.o
+_buzzcon                      0000ced5   defined in Release\beep.o section .text
+                                         used in Release\main.o
+_calc_disconnect              00009bb5   defined in Release\sensor.o section .text
+_check_key_id                 0000b89e   defined in Release\key.o section .text
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+_clock                        0000a263   defined in Release\time.o section .text
+                                         used in Release\error.o Release\motion.o
+                                                 Release\image.o Release\miwifi.o
+_cnt_rec2                     00000060   defined in Release\main.o section .ubsct
+                                         used in Release\commu.o
+                                                 Release\uart_sim.o
+_cnt_tra2                     0000005f   defined in Release\main.o section .ubsct
+                                         used in Release\commu.o
+                                                 Release\uart_sim.o
+_command_size                 00000050   defined in Release\commu.o section .ubsct
+                                         used in Release\uart_sim.o
+_commu                        0000d071   defined in Release\commu.o section .text
+                                         used in Release\main.o
+_commu_wifi                   0000be08   defined in Release\miwifi.o section .text
+                                         used in Release\main.o
+_commu_wifi_flag              0000035f   defined in Release\miwifi.o section .bss
+                                         used in Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+_dc_motor_rating_f1           00000373   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\eeprom.o Release\commu.o
+                                                 Release\ini.o
+_dc_motor_rating_volt         00000375   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\eeprom.o Release\commu.o
+                                                 Release\ini.o
+_dc_motor_startup_volt        00000374   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\eeprom.o Release\commu.o
+                                                 Release\ini.o
+_detect_error                 0000a2a0   defined in Release\error.o section .text
+                                         used in Release\main.o
+_disp_1f                      0000bb31   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_2f                      0000bb4a   defined in Release\image.o section .text
+                                         used in Release\motion.o
+_disp_alternant2_net          0000bbfa   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_alternant_net           0000bbc9   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_custom                  0000bb82   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_d                       0000bb63   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_ld                      0000bb71   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_disp_matrix                  0000bba3   defined in Release\image.o section .text
+                                         used in Release\motion.o
+_disp_matrix_all              0000ba4c   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_disp_text                    0000ba56   defined in Release\image.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_display_cnt                  00000229   defined in Release\motion.o section .bss
+                                         used in Release\program.o
+                                                 Release\factory.o
+_display_seg                  00000228   defined in Release\motion.o section .bss
+                                         used in Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_eeprom_factory               0000d028   defined in Release\eeprom.o section .text
+                                         used in Release\factory.o
+_eeprom_read                  0000cf86   defined in Release\eeprom.o section .text
+                                         used in Release\ini.o
+_eeprom_wrchar                0000cf25   defined in Release\eeprom.o section .text
+                                         used in Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o Release\ini.o
+_eeprom_write_int             0000cf67   defined in Release\eeprom.o section .text
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+_eeprom_write_long            0000cf40   defined in Release\eeprom.o section .text
+                                         used in Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+_error_code                   00000061   defined in Release\main.o section .ubsct
+                                         used in Release\error.o Release\commu.o
+_error_id                     0000001b   defined in Release\error.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\factory.o Release\fan.o
+                                                 Release\miwifi.o
+_error_time                   0000021d   defined in Release\error.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+_exit                         00009811   defined in C:\CXSTM8\Lib\crtsi0.sm8 section .text
+_factory_finish               00006f:2   defined in Release\main.o section .bit, initialized
+                                         used in Release\fan.o Release\eeprom.o
+_feed_wdg                     0000d3c1   defined in Release\ini.o section .text
+                                         used in Release\main.o
+_fixed_mode_speed             00000367   defined in Release\main.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_fixed_start_speed            00000365   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o Release\ini.o
+_flag_Gsensor_disconnected    000001f9   defined in Release\sensor.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\factory.o
+_flag_auto                    00006f:0   defined in Release\main.o section .bit, initialized
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o
+_flag_beep                    00006e:4   defined in Release\beep.o section .bit, initialized
+                                         used in Release\time.o
+_flag_disp                    00000360   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o Release\ini.o
+_flag_may_stuck               00006d:2   defined in Release\motion.o section .bit, initialized
+                                         used in Release\sensor.o
+_flag_mode_changed            00006e:3   defined in Release\miwifi.o section .bit, initialized
+                                         used in Release\motion.o
+_flag_motor_params_changed    00006e:6   defined in Release\commu.o section .bit, initialized
+                                         used in Release\program.o
+_flag_sensor_may_reverted     00006d:0   defined in Release\sensor.o section .bit, initialized
+                                         used in Release\motion.o
+_flag_txd_process             00006e:7   defined in Release\commu.o section .bit, initialized
+                                         used in Release\uart_sim.o
+_getFanSpeed                  0000b7e2   defined in Release\fan.o section .text
+                                         used in Release\commu.o
+_global_fan_test              00006d:6   defined in Release\factory.o section .bit, initialized
+                                         used in Release\fan.o
+_goal_status                  00000361   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+_goal_type                    00000364   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o
+_goal_value                   00000362   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o
+_image                        00000233   defined in Release\image.o section .bss
+_images                       000091f8   defined in Release\image.o section .const
+                                         used in Release\motion.o
+                                                 Release\displaydriver.o
+_ini                          0000d455   defined in Release\ini.o section .text
+                                         used in Release\main.o
+_init_params                  0000d3e7   defined in Release\ini.o section .text
+                                         used in Release\factory.o
+_init_uart_sim                0000d5bd   defined in Release\uart_sim.o section .text
+                                         used in Release\commu.o Release\ini.o
+_isspace                      0000d856   defined in (C:\CXSTM8\Lib\libis0.sm8)isspac0.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)atoi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)atol.o
+_key_id                       0000002f   defined in Release\key.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_key_id_done                  00006e:0   defined in Release\key.o section .bit, initialized
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_key_scan                     0000b823   defined in Release\key.o section .text
+                                         used in Release\main.o
+_led_sizes                    000091fc   defined in Release\image.o section .const
+_machine_current_motor        00000372   defined in Release\main.o section .bss
+                                         used in Release\sensor.o Release\error.o
+                                                 Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o Release\commu.o
+_machine_rpm_target           00000055   defined in Release\main.o section .ubsct
+                                         used in Release\control.o
+                                                 Release\commu.o
+_machine_speed_target         00000057   defined in Release\main.o section .ubsct
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o Release\fan.o
+                                                 Release\miwifi.o
+_machine_state                00006f:4   defined in Release\main.o section .bit, initialized
+                                         used in Release\motion.o Release\commu.o
+_machine_volt_motor           00000371   defined in Release\main.o section .bss
+                                         used in Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o Release\commu.o
+_main                         0000d579   defined in Release\main.o section .text
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+_max_speed_unlocked           00006f:1   defined in Release\main.o section .bit, initialized
+                                         used in Release\miwifi.o
+                                                 Release\eeprom.o
+_memcpy                       0000d866   defined in (C:\CXSTM8\Lib\libis0.sm8)memcpy0.o section .text
+                                         used in Release\image.o
+_net_state                    0000035e   defined in Release\miwifi.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+_no_current_cnt               000001e8   defined in Release\sensor.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+_pccom_cnt                    0000005e   defined in Release\main.o section .ubsct
+                                         used in Release\commu.o
+_pcerr_com                    00006f:6   defined in Release\main.o section .bit, initialized
+                                         used in Release\error.o Release\motion.o
+                                                 Release\commu.o
+_pcorder                      00006f:7   defined in Release\main.o section .bit, initialized
+                                         used in Release\commu.o
+                                                 Release\uart_sim.o
+_pcrxd                        0000038f   defined in Release\main.o section .bss
+                                         used in Release\commu.o
+                                                 Release\uart_sim.o
+_pctxd                        00000376   defined in Release\main.o section .bss
+                                         used in Release\commu.o
+                                                 Release\uart_sim.o
+_power_board_version          00000058   defined in Release\main.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\factory.o
+                                                 Release\commu.o
+_putchar                      0000df04   defined in (C:\CXSTM8\Lib\libis0.sm8)putchr.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+_ram_d0                       00000054   defined in Release\main.o section .ubsct
+                                         used in Release\ini.o
+_ram_d1                       00000020   defined in Release\control.o section .ubsct
+                                         used in Release\ini.o
+_ram_d2                       0000001f   defined in Release\control.o section .ubsct
+                                         used in Release\ini.o
+_ram_d3                       00000051   defined in Release\commu.o section .ubsct
+                                         used in Release\ini.o
+_ram_d4                       00000052   defined in Release\displaydriver.o section .ubsct
+                                         used in Release\ini.o
+_ram_d5                       00000053   defined in Release\main.o section .ubsct
+                                         used in Release\ini.o
+_ram_d6                       0000003b   defined in Release\image.o section .ubsct
+                                         used in Release\ini.o
+_ram_d7                       00000015   defined in Release\time.o section .ubsct
+                                         used in Release\ini.o
+_rcCheck                      0000b8c4   defined in Release\rc.o section .text
+                                         used in Release\key.o
+_reset_data                   0000b3ec   defined in Release\control.o section .text
+                                         used in Release\motion.o
+_run                          0000a227   defined in Release\run_mode.o section .text
+                                         used in Release\motion.o
+                                                 Release\factory.o
+_run_auto                     00009f04   defined in Release\run_mode.o section .text
+_run_fixed                    0000a0c8   defined in Release\run_mode.o section .text
+_run_in_prog_mode             00006d:5   defined in Release\control.o section .bit, initialized
+                                         used in Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+_run_new                      0000a17e   defined in Release\run_mode.o section .text
+                                         used in Release\motion.o
+_run_stepdown                 0000a1ef   defined in Release\run_mode.o section .text
+_runmode                      00000010   defined in Release\run_mode.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o
+_save_total_distance          0000b430   defined in Release\control.o section .text
+                                         used in Release\motion.o
+_server_time                  00000333   defined in Release\miwifi.o section .bss
+                                         used in Release\error.o Release\motion.o
+                                                 Release\control.o
+_show_factory_mode            00006d:4   defined in Release\motion.o section .bit, initialized
+                                         used in Release\program.o
+_show_net_state               0000b482   defined in Release\factory.o section .text
+_skip_error                   00006d:1   defined in Release\error.o section .bit, initialized
+                                         used in Release\motion.o
+_speed_limit_max              00000368   defined in Release\main.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o Release\ini.o
+_speed_rpm_convert            0000b3ae   defined in Release\control.o section .text
+                                         used in Release\factory.o
+_sprintf                      0000d886   defined in (C:\CXSTM8\Lib\libis0.sm8)sprnt.o section .text
+                                         used in Release\miwifi.o
+_start_cnt                    00000231   defined in Release\control.o section .bss
+                                         used in Release\motion.o
+_start_no_tick                00006d:3   defined in Release\motion.o section .bit, initialized
+                                         used in Release\sensor.o
+_state_sec                    00000017   defined in Release\time.o section .ubsct
+                                         used in Release\sensor.o
+                                                 Release\motion.o
+                                                 Release\factory.o
+_state_tick                   00000016   defined in Release\time.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+_stepdown_cnt                 00000201   defined in Release\run_mode.o section .bss
+_stepdown_flag                00000202   defined in Release\run_mode.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_stop_dly_cnt                 000001ff   defined in Release\run_mode.o section .bss
+_store_mp                     00000358   defined in Release\miwifi.o section .bss
+                                         used in Release\control.o
+_store_point                  00000339   defined in Release\miwifi.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\eeprom.o
+_strchr                       0000df0d   defined in (C:\CXSTM8\Lib\libis0.sm8)strchr0.o section .text
+                                         used in Release\miwifi.o
+_strcpy                       0000df19   defined in (C:\CXSTM8\Lib\libis0.sm8)strcpy0.o section .text
+                                         used in Release\miwifi.o
+_strlen                       0000df27   defined in (C:\CXSTM8\Lib\libis0.sm8)strlen0.o section .text
+                                         used in Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+_strncmp                      0000df33   defined in (C:\CXSTM8\Lib\libis0.sm8)strncm.o section .text
+                                         used in Release\miwifi.o
+_strstr                       0000df69   defined in (C:\CXSTM8\Lib\libis0.sm8)strstr.o section .text
+                                         used in Release\miwifi.o
+_tension                      000001f5   defined in Release\sensor.o section .bss
+                                         used in Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_tension2                     000001f1   defined in Release\sensor.o section .bss
+                                         used in Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+_tension2_bias                000001e9   defined in Release\sensor.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\miwifi.o
+_tension2_orig                000001b5   defined in Release\sensor.o section .bss
+_tension_bias                 000001ed   defined in Release\sensor.o section .bss
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\miwifi.o
+_tension_orig                 000001b9   defined in Release\sensor.o section .bss
+_timer1_ini                   0000d3c6   defined in Release\ini.o section .text
+                                         used in Release\uart_sim.o
+_timer_1ms                    00000019   defined in Release\time.o section .ubsct
+                                         used in Release\main.o
+_timer_proc                   0000a290   defined in Release\time.o section .text
+                                         used in Release\main.o
+_toupper                      0000df9d   defined in (C:\CXSTM8\Lib\libis0.sm8)toup0.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+_turn_rx_off                  0000d5fc   defined in Release\uart_sim.o section .text
+                                         used in Release\commu.o
+_turn_rx_on                   0000d5f7   defined in Release\uart_sim.o section .text
+_tutorial_finish              00006f:3   defined in Release\main.o section .bit, initialized
+                                         used in Release\run_mode.o
+                                                 Release\eeprom.o
+_tutorial_state               00000200   defined in Release\run_mode.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+_user_calories                00000021   defined in Release\control.o section .ubsct
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+_user_distance                00000025   defined in Release\control.o section .ubsct
+                                         used in Release\motion.o Release\fan.o
+                                                 Release\miwifi.o
+_user_request                 0000005d   defined in Release\main.o section .ubsct
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o Release\commu.o
+_user_rpm_target              0000005a   defined in Release\main.o section .ubsct
+                                         used in Release\control.o
+                                                 Release\commu.o
+_user_speed_inc               0000012a   defined in Release\run_mode.o section .data, initialized
+_user_speed_target            0000005c   defined in Release\main.o section .ubsct
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+_user_steps                   0000036f   defined in Release\main.o section .bss
+                                         used in Release\sensor.o
+                                                 Release\control.o
+                                                 Release\commu.o
+_user_steps_last              00000369   defined in Release\main.o section .bss
+                                         used in Release\sensor.o Release\commu.o
+_user_steps_pause             0000036b   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+_user_steps_total             0000036d   defined in Release\main.o section .bss
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+_user_time_minute             0000022f   defined in Release\control.o section .bss
+                                         used in Release\error.o Release\motion.o
+                                                 Release\miwifi.o
+_user_time_second             0000022e   defined in Release\control.o section .bss
+                                         used in Release\motion.o
+                                                 Release\miwifi.o
+_user_total_distance          00000224   defined in Release\motion.o section .bss
+                                         used in Release\control.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+                                                 Release\eeprom.o
+_useroperation                0000b45a   defined in Release\control.o section .text
+                                         used in Release\main.o
+_userstate                    0000022d   defined in Release\control.o section .bss
+                                         used in Release\sensor.o
+                                                 Release\motion.o
+                                                 Release\miwifi.o
+_vsprintf                     0000dfa8   defined in (C:\CXSTM8\Lib\libis0.sm8)vsprnt.o section .text
+                                         used in Release\image.o
+_waiting                      00006f:5   defined in Release\main.o section .bit, initialized
+                                         used in Release\sensor.o
+                                                 Release\motion.o
+                                                 Release\program.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o Release\ini.o
+_waiting_cnt                  00000059   defined in Release\main.o section .ubsct
+                                         used in Release\sensor.o
+                                                 Release\motion.o
+                                                 Release\factory.o Release\ini.o
+c_cmulx                       0000dfba   defined in (C:\CXSTM8\Lib\libm0.sm8)cmulx.o section .text
+                                         used in Release\miwifi.o
+c_divsl                       0000dfce   defined in (C:\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                         used in (C:\CXSTM8\Lib\libm0.sm8)lsdiv.o
+c_divul                       0000dfe5   defined in (C:\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)ildiv0.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ludiv.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lumod.o
+c_fadd                        0000e103   defined in (C:\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                         *** not used ***
+c_fcmp                        0000e0b9   defined in (C:\CXSTM8\Lib\libm0.sm8)fcmp.o section .text
+                                         used in Release\run_mode.o
+c_fsub                        0000e0ef   defined in (C:\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                         used in Release\run_mode.o
+c_ftoi                        0000e1cc   defined in (C:\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+                                         *** not used ***
+c_ftol                        0000e1d2   defined in (C:\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+                                         used in Release\run_mode.o
+c_idiv                        0000e22e   defined in (C:\CXSTM8\Lib\libm0.sm8)idiv.o section .text
+                                         used in Release\sensor.o
+c_imul                        0000e24c   defined in (C:\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                         used in Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)atoi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+c_itof                        0000e26d   defined in (C:\CXSTM8\Lib\libm0.sm8)itof.o section .text
+                                         used in Release\run_mode.o
+c_itolx                       0000e29b   defined in (C:\CXSTM8\Lib\libm0.sm8)itolx.o section .text
+                                         used in Release\error.o
+c_ladc                        0000e2a9   defined in (C:\CXSTM8\Lib\libm0.sm8)ladc.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)atol.o
+c_ladd                        0000e2ba   defined in (C:\CXSTM8\Lib\libm0.sm8)ladd.o section .text
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+c_lcmp                        0000e2d2   defined in (C:\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\miwifi.o
+c_ldiv                        0000e2f2   defined in (C:\CXSTM8\Lib\libm0.sm8)lsdiv.o section .text
+                                         used in Release\run_mode.o
+                                                 Release\motion.o
+c_lgadc                       0000e311   defined in (C:\CXSTM8\Lib\libm0.sm8)lgadc.o section .text
+                                         used in Release\sensor.o Release\time.o
+                                                 Release\error.o Release\miwifi.o
+c_lgadd                       0000e321   defined in (C:\CXSTM8\Lib\libm0.sm8)lgadd.o section .text
+                                         used in Release\sensor.o Release\error.o
+                                                 Release\motion.o
+                                                 Release\control.o
+c_lgneg                       0000e338   defined in (C:\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                         used in (C:\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lgsub                       0000e34b   defined in (C:\CXSTM8\Lib\libm0.sm8)lgsub.o section .text
+                                         used in Release\miwifi.o
+c_lgxor                       0000e362   defined in (C:\CXSTM8\Lib\libm0.sm8)lgxor.o section .text
+                                         used in Release\sensor.o
+c_lmul                        0000e379   defined in (C:\CXSTM8\Lib\libm0.sm8)lmul.o section .text
+                                         used in Release\run_mode.o
+c_lmulc                       0000e381   defined in (C:\CXSTM8\Lib\libm0.sm8)lmul.o section .text
+                                         *** not used ***
+c_lneg                        0000e404   defined in (C:\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                         used in (C:\CXSTM8\Lib\libis0.sm8)atol.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lsdiv.o
+c_lreg                        00000063   defined in (C:\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\factory.o
+                                                 Release\image.o Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)cmulx.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)fcmp.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)fadd.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ftol.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)itof.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)itolx.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ladc.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ladd.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lcmp.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lgadd.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lgsub.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lgxor.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lmul.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lsub.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lumod.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)rtol.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)smul.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)utolx.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)umul.o
+c_lsub                        0000e419   defined in (C:\CXSTM8\Lib\libm0.sm8)lsub.o section .text
+                                         used in Release\sensor.o
+                                                 Release\motion.o
+c_ltor                        0000e431   defined in (C:\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\time.o Release\error.o
+                                                 Release\motion.o
+                                                 Release\factory.o
+                                                 Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)atol.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_ludv                        0000e443   defined in (C:\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                         used in Release\sensor.o Release\error.o
+                                                 Release\motion.o
+                                                 Release\control.o
+                                                 Release\factory.o
+                                                 Release\image.o Release\miwifi.o
+c_lumd                        0000e457   defined in (C:\CXSTM8\Lib\libm0.sm8)lumod.o section .text
+                                         used in Release\image.o
+c_lzmp                        0000e471   defined in (C:\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+                                         used in Release\sensor.o Release\error.o
+                                                 Release\control.o
+                                                 Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)itob.o
+c_okadd                       0000e10d   defined in (C:\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+c_oksub                       0000e0f9   defined in (C:\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                         *** not used ***
+c_rtol                        0000e483   defined in (C:\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\image.o Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)atol.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_sdivx                       0000e4cd   defined in (C:\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                         *** not used ***
+c_sdivy                       0000e49b   defined in (C:\CXSTM8\Lib\libm0.sm8)sdivy.o section .text
+                                         used in Release\sensor.o
+c_smodx                       0000e4c7   defined in (C:\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                         used in Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\error.o Release\motion.o
+c_smody                       0000e495   defined in (C:\CXSTM8\Lib\libm0.sm8)sdivy.o section .text
+                                         *** not used ***
+c_smul                        0000e4f2   defined in (C:\CXSTM8\Lib\libm0.sm8)smul.o section .text
+                                         used in Release\error.o Release\miwifi.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)atol.o
+c_uitolx                      0000e531   defined in (C:\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+                                         used in Release\error.o Release\motion.o
+                                                 Release\control.o
+                                                 Release\image.o
+c_umul                        0000e538   defined in (C:\CXSTM8\Lib\libm0.sm8)umul.o section .text
+                                         used in Release\control.o
+c_x                           00000067   defined in (C:\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+                                                 Release\sensor.o
+                                                 Release\run_mode.o
+                                                 Release\image.o Release\miwifi.o
+                                                 Release\uart_sim.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)memcpy0.o
+                                                 (C:\CXSTM8\Lib\libis0.sm8)strlen0.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)fcmp.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)fadd.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)imul.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)lmul.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)sdivx.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)umul.o
+c_y                           0000006a   defined in (C:\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                         used in C:\CXSTM8\Lib\crtsi0.sm8
+                                                 Release\sensor.o Release\image.o
+                                                 Release\commu.o
+                                                 Release\uart_sim.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)sdivy.o
+                                                 (C:\CXSTM8\Lib\libm0.sm8)umul.o
+f_NonHandledInterrupt         0000e574   defined in Release\stm8_interrupt_vector.o section .text
+f_TIM1_OV_isr                 0000d75d   defined in Release\uart_sim.o section .text
+                                         used in Release\stm8_interrupt_vector.o
+f_TIM2_OV_isr                 0000ba1f   defined in Release\rc.o section .text
+                                         used in Release\stm8_interrupt_vector.o
+f_TIM4_isr                    0000a269   defined in Release\time.o section .text
+                                         used in Release\stm8_interrupt_vector.o
+f_rc_isr                      0000b902   defined in Release\rc.o section .text
+                                         used in Release\stm8_interrupt_vector.o
+f_rxd_isr                     0000ce8e   defined in Release\miwifi.o section .text
+                                         used in Release\stm8_interrupt_vector.o
+f_txd_isr                     0000ce6b   defined in Release\miwifi.o section .text
+                                         used in Release\stm8_interrupt_vector.o

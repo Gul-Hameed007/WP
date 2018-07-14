@@ -1,0 +1,1 @@
+#WalkingPad_STM8S005K

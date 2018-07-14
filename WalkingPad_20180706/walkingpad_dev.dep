@@ -1,0 +1,65 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source File.src\time.c.Config.0]
+ExternDep= src\time.c "C:\Program Files\COSMIC\CXSTM8\HSTM8\mods0.h"  src\time.h newtype.h "C:\Program Files\COSMIC\CXSTM8\HSTM8\stdbool.h"  declare.h stm8s.h stm8s_type.h stm8s_conf.h stm8s105k.h
+
+[Root.Source File.src\time.c.Config.1]
+ExternDep= src\time.c C:\CXSTM8\Hstm8\mods0.h src\time.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h declare.h stm8s.h stm8s_type.h stm8s_conf.h  stm8s105k.h
+
+[Root.Source File.src\error.c.Config.1]
+ExternDep= src\error.c C:\CXSTM8\Hstm8\mods0.h src\control.h src\time.h  newtype.h C:\CXSTM8\Hstm8\stdbool.h src\beep.h src\sensor.h src\miwifi.h  declare.h stm8s.h stm8s_type.h stm8s_conf.h stm8s105k.h src\image.h  src\eeprom.h
+
+[Root.Source File.src\motion.c.Config.1]
+ExternDep= src\motion.c C:\CXSTM8\Hstm8\mods0.h  C:\CXSTM8\Hstm8\stdio.h C:\CXSTM8\Hstm8\string.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h declare.h stm8s.h stm8s_type.h stm8s_conf.h  stm8s105k.h src\control.h src\time.h src\eeprom.h src\image.h src\beep.h  src\key.h src\miwifi.h src\run_mode.h src\sensor.h displaydriver.h
+
+[Root.Source File.src\program.c.Config.1]
+ExternDep= src\program.c C:\CXSTM8\Hstm8\mods0.h src\key.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h declare.h stm8s.h stm8s_type.h stm8s_conf.h  stm8s105k.h src\beep.h src\eeprom.h src\control.h src\time.h
+
+[Root.Source File.src\control.c.Config.1]
+ExternDep= src\control.c C:\CXSTM8\Hstm8\mods0.h  C:\CXSTM8\Hstm8\stdio.h declare.h stm8s.h stm8s_type.h stm8s_conf.h  stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h src\image.h displaydriver.h  src\sensor.h src\beep.h src\run_mode.h src\miwifi.h src\eeprom.h src\key.h  src\control.h src\time.h
+
+[Root.Source File.src\factory.c.Config.1]
+ExternDep= src\factory.c C:\CXSTM8\Hstm8\mods0.h  C:\CXSTM8\Hstm8\stdio.h declare.h stm8s.h stm8s_type.h stm8s_conf.h  stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h src\eeprom.h src\key.h  src\beep.h src\image.h src\miwifi.h src\run_mode.h src\sensor.h src\control.h  src\time.h
+
+[Root.Source File.src\fan.c.Config.1]
+ExternDep= src\fan.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  src\control.h src\time.h
+
+[Root.Source File.src\key.c.Config.1]
+ExternDep= src\key.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  src\key.h
+
+[Root.Source File.src\rc.c.Config.1]
+ExternDep= src\rc.c C:\CXSTM8\Hstm8\mods0.h stm8s105k.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h src\key.h
+
+[Root.Source File.src\image.c.Config.1]
+ExternDep= src\image.c C:\CXSTM8\Hstm8\mods0.h C:\CXSTM8\Hstm8\stdio.h  C:\CXSTM8\Hstm8\string.h C:\CXSTM8\Hstm8\stdarg.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  src\image.h src\time.h
+
+[Root.Source File.src\miwifi.c.Config.1]
+ExternDep= src\miwifi.c C:\CXSTM8\Hstm8\mods0.h  C:\CXSTM8\Hstm8\stdio.h C:\CXSTM8\Hstm8\string.h C:\CXSTM8\Hstm8\stdlib.h  C:\CXSTM8\Hstm8\ctype.h src\miwifi.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  declare.h stm8s.h stm8s_type.h stm8s_conf.h stm8s105k.h src\sensor.h  src\beep.h src\run_mode.h src\eeprom.h src\image.h displaydriver.h src\key.h  src\time.h
+
+[Root.Source File.src\beep.c.Config.1]
+ExternDep= src\beep.c C:\CXSTM8\Hstm8\mods0.h src\beep.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h
+
+[Root.Source File.src\eeprom.c.Config.1]
+ExternDep= src\eeprom.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  src\eeprom.h src\run_mode.h src\miwifi.h
+
+[Root.Source Files.commu.c.Config.1]
+ExternDep= commu.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h
+
+[Root.Source Files.displaydriver.c.Config.1]
+ExternDep= displaydriver.c C:\CXSTM8\Hstm8\mods0.h declare.h  stm8s.h stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h  C:\CXSTM8\Hstm8\stdbool.h src\image.h displaydriver.h  C:\CXSTM8\Hstm8\processor.h
+
+[Root.Source Files.ini.c.Config.1]
+ExternDep= ini.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h stm8s_type.h  stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h displaydriver.h  src\eeprom.h src\image.h
+
+[Root.Source Files.main.c.Config.1]
+ExternDep= main.c C:\CXSTM8\Hstm8\mods0.h stm8s.h stm8s_type.h  stm8s_conf.h zero.h newtype.h C:\CXSTM8\Hstm8\stdbool.h src\sensor.h  displaydriver.h src\control.h src\time.h src\miwifi.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.1]
+ExternDep= stm8_interrupt_vector.c  C:\CXSTM8\Hstm8\mods0.h
+
+[Root.Source Files.uart_sim.c.Config.1]
+ExternDep= uart_sim.c C:\CXSTM8\Hstm8\mods0.h declare.h stm8s.h  stm8s_type.h stm8s_conf.h stm8s105k.h newtype.h C:\CXSTM8\Hstm8\stdbool.h  C:\CXSTM8\Hstm8\processor.h
