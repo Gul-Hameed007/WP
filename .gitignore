@@ -2,7 +2,10 @@
 *.o
 *.elf
 *.lkf
+*.ls
 
 *.obj
 *.htm
 
+#忽略特定文件夹名
+__Previews/
