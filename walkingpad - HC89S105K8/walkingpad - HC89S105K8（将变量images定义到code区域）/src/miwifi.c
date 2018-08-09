@@ -250,7 +250,7 @@ void commu_wifi(void)
             case MCU_WIFI_RESULT:
                 //sprintf(mcu2wifi_txd, "result %s", ack_str[0] == '\0' ? "\"ok\"" : ack_str);
                 if(ack_str[0] == '\0') sprintf(mcu2wifi_txd, "result %s", "\"ok\"");
-                else sprintf(mcu2wifi_txd, ack_str);
+                else sprintf(mcu2wifi_txd, "result %s", ack_str);
                 break;
             case MCU_WIFI_PROPS:
                 ptr0 = mcu2wifi_txd + sprintf(mcu2wifi_txd, "props ");
@@ -905,8 +905,8 @@ void commu_wifi(void)
                         DisplayDriverProcessLED();
                         //WWDG->CR |= 0x80;
                         //WWDG->CR &= (uchar)~0x40;
-                     	IAP_CMD=0xF00F;		//ÃüÁî¼Ä´æÆ÷---½âËø
-                     	IAP_CMD=0x7887;		//ÃüÁî¼Ä´æÆ÷---ÖØ¶Á´úÂëÑ¡Ïî
+                     	IAP_CMD=0xF00F;		//å‘½ä»¤å¯„å­˜å™¨---è§£é”
+                     	IAP_CMD=0x7887;		//å‘½ä»¤å¯„å­˜å™¨---é‡è¯»ä»£ç é€‰é¡¹
                     }
                     else
                     {
