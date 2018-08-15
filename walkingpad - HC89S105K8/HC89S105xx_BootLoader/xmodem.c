@@ -5,7 +5,7 @@ unsigned char WriteFlash(unsigned char* DataAddress, unsigned char DataCount, un
 
 char recv_buffer[134];// uart receive buffer
 
-//·¢ËÍn×Ö½ÚÊý¾Ý
+//å‘é€nå­—èŠ‚æ•°æ®
 void _outnbyte(char *c, int n)
 {
 	int pass = 0;
@@ -13,13 +13,13 @@ void _outnbyte(char *c, int n)
 	{
 		//send data
 		SBUF=*(c+pass);
-		while(!(SCON&0x02)/*TI*/);    //µÈ´ýÒ»×Ö½ÚÊý¾Ý·¢ËÍÍê³É
-		SCON&=~0x02;				//·¢ËÍÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+		while(!(SCON&0x02)/*TI*/);    //ç­‰å¾…ä¸€å­—èŠ‚æ•°æ®å‘é€å®Œæˆ
+		SCON&=~0x02;				//å‘é€ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
 		pass++;
 	}
 }
 
-//½ÓÊÕn×Ö½ÚÊý¾Ý
+//æŽ¥æ”¶nå­—èŠ‚æ•°æ®
 int _innbyte(char *ch, int n, unsigned short sec) // sec
 {
 	long ticks = sec * TICK_PER_SECOND;
@@ -32,28 +32,28 @@ int _innbyte(char *ch, int n, unsigned short sec) // sec
 		if((SCON&0x40)/*RXROV*/)
       {
          *(ch+pass) = SBUF;
-         SCON &= ~0x41; //½ÓÊÕÒç³ö±êÖ¾Î»Çå0£¬½ÓÊÕÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+         SCON &= ~0x41; //æŽ¥æ”¶æº¢å‡ºæ ‡å¿—ä½æ¸…0ï¼ŒæŽ¥æ”¶ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
          continue;
       }
 		*(ch+pass) = SBUF;
-      SCON &= ~0x01; //½ÓÊÕÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+      SCON &= ~0x01; //æŽ¥æ”¶ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
 		pass++;
 	}
 	
 	return pass;
 }
 
-//·¢ËÍ1×Ö½ÚÊý¾Ý
+//å‘é€1å­—èŠ‚æ•°æ®
 void _outbyte(char c)
 {
    //send data
    SBUF = c;
    //wait for transmission complete
-   while(!(SCON&0x02)/*TI*/);    //µÈ´ýÒ»×Ö½ÚÊý¾Ý·¢ËÍÍê³É
-   SCON &=~ 0x02;				//·¢ËÍÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+   while(!(SCON&0x02)/*TI*/);    //ç­‰å¾…ä¸€å­—èŠ‚æ•°æ®å‘é€å®Œæˆ
+   SCON &=~ 0x02;				//å‘é€ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
 }
 
-//½ÓÊÕ1×Ö½ÚÊý¾Ý
+//æŽ¥æ”¶1å­—èŠ‚æ•°æ®
 int _inbyte(char *ch,unsigned short sec) // sec
 {
 	long ticks = sec * TICK_PER_SECOND;
@@ -70,13 +70,13 @@ int _inbyte(char *ch,unsigned short sec) // sec
    {
       //receive data to clear error
       *ch = SBUF;
-      SCON &= ~0x41; //½ÓÊÕÒç³ö±êÖ¾Î»Çå0£¬½ÓÊÕÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+      SCON &= ~0x41; //æŽ¥æ”¶æº¢å‡ºæ ‡å¿—ä½æ¸…0ï¼ŒæŽ¥æ”¶ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
       //and return error
       return -1;
    }
    //receive data
    *ch = SBUF;
-   SCON &= ~0x01; //½ÓÊÕÖÐ¶ÏÇëÇóÖÐ¶Ï±êÖ¾Î»Çå0
+   SCON &= ~0x01; //æŽ¥æ”¶ä¸­æ–­è¯·æ±‚ä¸­æ–­æ ‡å¿—ä½æ¸…0
    //and return no error
    return 1;
 }
@@ -124,15 +124,15 @@ static int check(int crc, const char *buf, int sz)
 	return 0;
 }//check
 
-int xmodemReceive(char *dest, int destsz)
+int xmodemReceive(char *dest, unsigned int destsz)
 {
 	char *xbuff;
 	char *p;
-	int bufsz, crc = 0;
+	unsigned int bufsz, crc = 0;
 	char trychar = 'C';
 	unsigned char packetno = 1;
 	char c;
-	int ret = 0, len = 0;
+	unsigned int ret = 0, len = 0;
 	int retry, retrans = MAXRETRANS;
 
 	xbuff = recv_buffer; //128B + 3 head chars + 2 crc + nul 
@@ -190,7 +190,7 @@ int xmodemReceive(char *dest, int destsz)
 			(xbuff[1] == packetno || xbuff[1] == (unsigned char)packetno-1) &&
 			check(crc, &xbuff[3], bufsz)) {
 			if (xbuff[1] == packetno)	{
-				int count = destsz - len;
+				unsigned int count = destsz - len;
 				if (count > bufsz) count = bufsz;
 				if (count > 0) {
 					WriteFlash(dest+len, count,&xbuff[3]);
