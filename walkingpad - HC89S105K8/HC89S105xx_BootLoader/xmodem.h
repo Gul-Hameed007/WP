@@ -19,6 +19,6 @@ void _outnbyte(char *c, int n);
 unsigned short crc16_ccitt( const char *buf, int len );
 static int check(int crc, const char *buf, int sz);
 static void flushinput(void);
-int xmodemReceive(char *dest, int destsz);
+int xmodemReceive(char *dest, unsigned int destsz);
 
 #endif
